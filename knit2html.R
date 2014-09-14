@@ -1,0 +1,5 @@
+library(knitr)
+setwd("C:\\Coursera\\5_RepData\\RepData_PeerAssessment1")
+getwd()
+knit2html("PA1_template.Rmd")
+browseURL('PA1_template.html')
